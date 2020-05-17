@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: rgb(153,153,153);
+background: -moz-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(115,115,115,1) 100%);
+background: -webkit-linear-gradient(top, rgba(153,153,153,1) 0%,rgba(115,115,115,1) 100%);
+background: linear-gradient(to bottom, rgba(153,153,153,1) 0%,rgba(115,115,115,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#737373',GradientType=0 );
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	background: ;
+	margin-bottom: 60px;
+}
+
+h1{
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: 0.3em;
+}
+.container{
+ 	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 20px;
+	margin-bottom: 80px;
+	width: 170px;
+}
+div, p, a, img, form, button{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 900;
+}
+.bttns{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.bttns {
+
+   
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+ul,li{
+
+	display: block;
+	
+}
+.bttns li a{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    box-sizing: border-box;
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+    color: #fff;
+	font-weight: 300;	
+	transition: 0.9s background ease;	
+	font-size: 30px;
+	text-decoration: none;
+
+}
+
+.bttns li a:hover {
+	box-sizing: border-box;
+	background: #666666;
+	border-top: 3px solid #00FF00;
+	border-bottom: 3px solid #00FF00;
+}
+.bttn{
+	margin-bottom: 80px;
+}
